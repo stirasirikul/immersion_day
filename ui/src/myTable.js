@@ -114,7 +114,7 @@ class MyTable extends React.Component {
   }
   componentDidMount() {
     //fetch('http://jsonplaceholder.typicode.com/posts/')
-    fetch('http://ec2-52-33-133-85.us-west-2.compute.amazonaws.com:1337/estates/')
+    fetch('http://bala0707-test.apigee.net/realestateca')
         .then((response) => response.json())
         .then((responseJson) => {
           //alert("this.rows : " +JSON.stringify(responseJson[2]));
