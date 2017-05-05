@@ -28,6 +28,7 @@ import RestfulServices from './RestfulServices';
 import ReactDOM from 'react-dom';
 import './dist/fixed-data-table.css';
 import MyTable from './myTable';
+import SimpleMap from './SimpleMap';
 import {Table, Column, Cell} from 'fixed-data-table';
 
 import {
@@ -42,14 +43,14 @@ const BasicExample = () => (
         <div className="table">
           <ul id="horizontal-list">
             <li><Link to="/">Home</Link></li><li>          </li>
-            <li><Link to="/about">Add</Link></li><li>          </li>
+            <li><Link to="/map">Map</Link></li><li>          </li>
             <li><Link to="/topics">Topics</Link></li><li>          </li>
           </ul>
 
           <hr/>
 
           <Route exact path="/" component={MyTable}/>
-          <Route path="/about" component={About}/>
+          <Route path="/map" component={SimpleMap}/>
           <Route path="/topics" component={Topics}/>
         </div>
       </div>
