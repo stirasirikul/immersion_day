@@ -44,14 +44,12 @@ const BasicExample = () => (
           <ul id="horizontal-list">
             <li><Link to="/">Home</Link></li><li>          </li>
             <li><Link to="/map">Map</Link></li><li>          </li>
-            <li><Link to="/topics">Topics</Link></li><li>          </li>
           </ul>
 
           <hr/>
 
           <Route exact path="/" component={MyTable}/>
-          <Route path="/map" component={SimpleMap}/>
-          <Route path="/topics" component={Topics}/>
+          <Route path="/map" component={Topics}/>
         </div>
       </div>
   </Router>
