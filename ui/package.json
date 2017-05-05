@@ -4,6 +4,8 @@
   "private": true,
   "dependencies": {
     "fixed-data-table": "^0.6.4",
+    "google-map-react": "^0.24.0",
+    "prop-types": "^15.5.8",
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
   },
